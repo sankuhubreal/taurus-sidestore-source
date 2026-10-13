@@ -24,11 +24,11 @@
       "versions": [
         {
           "version": "9.1.78",
-          "date": "2026-10-08T22:17:09Z",
+          "date": "2026-10-09T21:27:13Z",
           "downloadURL": "https://github.com/samj-exe/taurus/releases/download/v0.50.1/Taurus-0.50.1.ipa",
           "size": 132875418,
           "minOSVersion": "16.1",
-          "localizedDescription": "taurus 0.50.1",
+          "localizedDescription": "taurus 0.50.1\n\n## Features\r\n- New Repos\r\n- Updated Default Prefs\r\n- v0.50.2 coming soon with more :)\r\n\r\nsee previous release for more info on features <3\r\n\r\nthis is the second time releasing this as the first one was bugged",
           "buildVersion": "917802214"
         }
       ],
