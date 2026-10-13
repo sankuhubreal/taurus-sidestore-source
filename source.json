@@ -23,11 +23,13 @@
       ],
       "versions": [
         {
-          "version": "0.50.1",
+          "version": "9.1.78",
           "date": "2026-10-08T22:17:09Z",
           "downloadURL": "https://github.com/samj-exe/taurus/releases/download/v0.50.1/Taurus-0.50.1.ipa",
-          "size": 132877139,
-          "minOSVersion": "16.1"
+          "size": 132875418,
+          "minOSVersion": "16.1",
+          "localizedDescription": "taurus 0.50.1",
+          "buildVersion": "917802214"
         }
       ],
       "appPermissions": {
