@@ -4,14 +4,6 @@ A source that follows the releases of [samj-exe/taurus](https://github.com/samj-
 A GitHub Action checks for a new release every 30 minutes and rewrites `source.json`, so SideStore
 shows each new taurus build as an update.
 
-## Set it up
-
-1. Create a new **public** GitHub repo and upload everything in this folder (keep `.github/workflows/`).
-2. In the repo, open **Actions**, enable workflows, then run **Update source** once.
-3. In SideStore: **Sources → +**, then paste (swap in your username and repo name):
-
-   `https://raw.githubusercontent.com/YOUR-USER/YOUR-REPO/main/source.json`
-
 ## Good to know
 
 - SideStore doesn't install updates silently. It shows an update on the app's page, and updating
