@@ -72,8 +72,8 @@ def build_source(versions):
     return {
         "name": "taurus",
         "identifier": "source.taurus.auto",
-        "subtitle": "Always the newest taurus release",
-        "description": f"Auto-generated from the releases of github.com/{REPO}.",
+        "subtitle": "Get the latest update of taurus with ease.",
+        "description": f"A no-jailbreak Theos tweak that rebuilds Spotify for iOS in Liquid Glass, injected into your own decrypted IPA and signed with your own certificate. Updated from the releases of github.com/{REPO}.",
         "iconURL": ICON,
         "website": f"https://github.com/{REPO}",
         "tintColor": TINT,
