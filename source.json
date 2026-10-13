@@ -1,14 +1,14 @@
 {
-  "name": "taurus",
+  "name": "Spotify",
   "identifier": "source.taurus.auto",
-  "subtitle": "Always the newest taurus release",
-  "description": "Auto-generated from the releases of github.com/samj-exe/taurus.",
+  "subtitle": "Get the latest update of taurus with ease.",
+  "description": "A no-jailbreak Theos tweak that rebuilds Spotify for iOS in Liquid Glass, injected into your own decrypted IPA and signed with your own certificate.",
   "iconURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/960px-Spotify_App_Logo.svg.png",
   "website": "https://github.com/samj-exe/taurus",
   "tintColor": "0A4B00",
   "apps": [
     {
-      "name": "taurus",
+      "name": "Spotify",
       "bundleIdentifier": "com.spotify.client",
       "developerName": "samj.",
       "subtitle": "Spotify with built-in Premium and a Liquid Glass UI",
