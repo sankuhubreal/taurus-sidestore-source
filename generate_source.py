@@ -23,6 +23,13 @@ MAX_VERSIONS = 10
 ICON = "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/960px-Spotify_App_Logo.svg.png"
 TINT = "0A4B00"
 
+SCREENSHOTS = [
+    "https://github.com/samj-exe/taurus/raw/stable/docs/screenshots/now-playing.webp",
+    "https://github.com/samj-exe/taurus/raw/stable/docs/screenshots/playlist.webp",
+    "https://github.com/samj-exe/taurus/raw/stable/docs/screenshots/live-activity.webp",
+    "https://github.com/samj-exe/taurus/raw/stable/docs/screenshots/home.webp",
+]
+
 # The mod keeps Spotify's own bundle id (it installs over the real Spotify).
 BUNDLE_ID = "com.spotify.client"
 MIN_IOS = "16.1"
@@ -73,7 +80,10 @@ def build_source(versions):
         "name": "taurus",
         "identifier": "source.taurus.auto",
         "subtitle": "Get the latest update of taurus with ease.",
-        "description": f"A no-jailbreak Theos tweak that rebuilds Spotify for iOS in Liquid Glass, injected into your own decrypted IPA and signed with your own certificate. Updated from the releases of github.com/{REPO}.",
+        "description": (
+            "A no-jailbreak Theos tweak that rebuilds Spotify for iOS in Liquid Glass, "
+            "injected into your own decrypted IPA and signed with your own certificate."
+        ),
         "iconURL": ICON,
         "website": f"https://github.com/{REPO}",
         "tintColor": TINT,
@@ -89,6 +99,7 @@ def build_source(versions):
                 ),
                 "iconURL": ICON,
                 "tintColor": TINT,
+                "screenshotURLs": SCREENSHOTS,
                 "versions": versions,
                 "appPermissions": {"entitlements": [], "privacy": {}},
             }
