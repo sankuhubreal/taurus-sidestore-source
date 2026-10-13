@@ -1,5 +1,5 @@
 {
-  "name": "Spotify",
+  "name": "taurus",
   "identifier": "source.taurus.auto",
   "subtitle": "Get the latest update of taurus with ease.",
   "description": "A no-jailbreak Theos tweak that rebuilds Spotify for iOS in Liquid Glass, injected into your own decrypted IPA and signed with your own certificate.",
@@ -15,6 +15,12 @@
       "localizedDescription": "Open-sourced fork of chroma.pw with built-in Spotify Premium. The redesigned UI needs iOS 26; the legacy UI supports iOS 16.1 and later.",
       "iconURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/960px-Spotify_App_Logo.svg.png",
       "tintColor": "0A4B00",
+      "screenshotURLs": [
+        "https://github.com/samj-exe/taurus/raw/stable/docs/screenshots/now-playing.webp",
+        "https://github.com/samj-exe/taurus/raw/stable/docs/screenshots/playlist.webp",
+        "https://github.com/samj-exe/taurus/raw/stable/docs/screenshots/live-activity.webp",
+        "https://github.com/samj-exe/taurus/raw/stable/docs/screenshots/home.webp"
+      ],
       "versions": [
         {
           "version": "0.50.1",
