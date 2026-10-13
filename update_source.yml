@@ -21,12 +21,12 @@ jobs:
 
       - name: Commit if it changed
         run: |
-          if git diff --quiet -- source.json; then
+          git add source.json ipa-cache.json
+          if git diff --cached --quiet; then
             echo "No new release."
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add source.json
             git commit -m "Update source to latest taurus release"
             git push
           fi
