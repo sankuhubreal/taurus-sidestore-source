@@ -79,7 +79,7 @@ def build_source(versions):
         "tintColor": TINT,
         "apps": [
             {
-                "name": "taurus",
+                "name": "Spotify",
                 "bundleIdentifier": BUNDLE_ID,
                 "developerName": "samj.",
                 "subtitle": "Spotify with built-in Premium and a Liquid Glass UI",
